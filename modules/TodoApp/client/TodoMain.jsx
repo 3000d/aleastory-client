@@ -34,7 +34,7 @@ export default class TodoMain extends Component {
 
   handleToggleHideCompleted = (e) => {
     this.setState({ hideCompleted: e.target.checked });
-  }
+  };
 
   render() {
     if (!this.data.tasks) {
